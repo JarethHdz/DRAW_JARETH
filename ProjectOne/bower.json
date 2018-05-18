@@ -1,0 +1,23 @@
+{
+  "name": "MyBootsraApp",
+  "homepage": "https://github.com/JarethHdz/DRAW_JARETH",
+  "authors": [
+    "jarethHdz <hernandezjaret8@gmail.com>"
+  ],
+  "description": "How to use boostrap framework",
+  "main": "index.html",
+  "keywords": [
+    "12345678"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.0.13"
+  }
+}
