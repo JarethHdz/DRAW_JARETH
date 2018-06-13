@@ -1,0 +1,22 @@
+{
+  "name": "ProjectTwo",
+  "homepage": "https://github.com/JarethHdz/DRAW_JARETH",
+  "authors": [
+    "JarethHdz <hernandezjaret8@gmail.com>"
+  ],
+  "description": "My 2nd project",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "fontawesome": "^5.0.13"
+  }
+}

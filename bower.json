@@ -1,0 +1,17 @@
+{
+  "name": "DRAW_JARETH",
+  "homepage": "https://github.com/JarethHdz/DRAW_JARETH",
+  "authors": [
+    "JarethHdz <hernandezjaret8@gmail.com>"
+  ],
+  "description": "My second Project with Bootstrap",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
