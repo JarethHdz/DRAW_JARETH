@@ -22,10 +22,10 @@
       <div id="navegacion" class="justify-content-end collapse navbar-collapse">
         <ul class="navbar-nav">
 
-          <li class="nav-item"><a href="products.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="index.html" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
           <li class="nav-item"> <form class="form-inline"><input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form></li>
@@ -46,7 +46,7 @@
 
         <div class="col-md-8">
           <div class="col-md-6 d-none d-sm-block" >
-            <img src="img/01.jpeg" alt="750" width="300">
+            <img src="img/01.jpg" alt="750" width="300">
           </div>
         </div>
       </div>
@@ -104,14 +104,14 @@
           </div>
           <!-- /.col-md-12 text-center -->
 
-          <!-- /.footer -->
+
         </div>
-        <!-- /.row -->
+
         <hr>
         <div class="footer md-12">
           <p class="text-center lead">
             Wanna get in touch? Email us at
-            jareth.hernandez.enriquez@alumno.uttehuacan.edu.mx
+            jareth.hernandez@alumno.uttehuacan.edu.mx
           </p>
           <hr>
           <ul class="list-unstyled text-center" id="iconos">
@@ -120,9 +120,51 @@
               <li class="list-inline-item"><a href=""><i class="fab fa-linkedin"></i></a></li>
 
           </ul>
+          <p class="text-center text-muted">
+            &copy; Copyright 2018 Company name
+          </p>
         </div>
+          <!-- /.footer -->
+        </div>
+          <!-- /.row -->
+          <div class="modal fade" id="modal-contact-form" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Contact Us</h5>
+                  <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                  </button>
+                </div>
+               <!--end header-->
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="contact-email" class="col-form-label">
+                      Email:
+                    </label>
+                    <input type="email" class="form-control" id="contact-email">
+                  </div>
+                  <div class="from-group">
+                    <label for="contact-name" class="col-form-label">
+                      Name:
+                    </label>
+                    <input type="text" class="form-control" id="contact-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-message" class="col-form-label">Message:</label>
+                    <textarea  id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                </form>
+              </div> <!--End body-->
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button class="btn btn-primary">Send</button>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    </div>
 
 
 

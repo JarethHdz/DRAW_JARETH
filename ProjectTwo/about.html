@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no. initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  <!-- enlazar bootsttrap--><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- enlazar fontawesome--><link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <!-- enlazar css--><link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <!--barra de navegacion-->
+  <nav  class="navbar bg-dark navbar-dark fixed-top navbar-expand-md ">
+    <a href="index.html" class="navbar-brand">Company logo</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navegacion" class="justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav ">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" >About Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
+        <li class="nav-item" >
+      <form class=" form-inline ">
+			<input class="form-control  mr-sm-2" type="search" placeholder="search" aria-label="search">
+      <button class="btn btn-outline-light my-2 my-sm-0-2" type="submit">Search</button>
+		</form></li>
+  </ul>
+  </div>
+  </nav>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">About us</a></li>
+    </ol>
+  </nav>
+  <div class="row">
+    <h1> About Us. <small class="text-muted">who we are</small></h1>
+  </div>
+  <hr>
+  <div class="row">
+  <div class=" col-md-8">
+      <h3>The company</h3>
+      <p  class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nulla, eius veniam aut obcaecati praesentium minima iusto harum similique rerum quam. Sequi autem laboriosam quibusdam deserunt soluta iste debitis! Nobis, placeat dolorem quasi magnam voluptatem numquam dignissimos. Quod optio ullam quam veniam in unde pariatur harum dolores voluptate at! Animi itaque, alias expedita! Sapiente, consectetur delectus consequuntur deleniti neque reiciendis porro dolore, totam voluptates deserunt hic perspiciatis in iste sequi consequatur ex. Aspernatur beatae fuga suscipit qui deleniti, magni facilis!</p>
+    </div>
+    <div class="col-md-4">
+      <p class="bg-light rounded lead text-center p-md-5 m-md-3">Our motto</p>
+    </div>
+  </div>
+
+    <!-- /.row -->
+    <hr>
+    <div class="row">
+      <h3>The Team</h3>
+    </div>
+    <div class="row"  id="aboutimg">
+      <div class="card col-md-5 ">
+        <img src="img/demo-team-member.jpg" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> John Doe</h5>
+          <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
+          <a href="products-single.html" ><i class="fab fa-twitter-square"></i></a>
+          <a href="products-single.html" ><i class="fab fa-facebook-square"></i></a>
+        </div>
+      </div>
+      <!-- /.card-col-md-4 -->
+      <div class="card col-md-5 offset-md-2">
+        <img src="img/demo-team-member.jpg" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> John Doe</h5>
+          <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
+          <a href="products-single.html" ><i class="fab fa-twitter-square"></i></a>
+
+          <a href="products-single.html" ><i class="fab fa-facebook-square"></i></a>
+        </div>
+      </div>
+      <!-- /.card-col-md-4 -->
+    </div>
+    <div class="footer col-md-12">
+      <p class="text-center lead">wanna get in touch? Email us at jareth.hernandez@alumno.uttehuacan.edu.mx</p>
+      <hr>
+      <ul id="iconos" class="list-unstyled  text-center">
+        <li class="list-inline-item"><a href=""><i class="fab fa-twitter-square"></i></a></li>
+        <li class="list-inline-item"><a href=""><i class="fab fa-facebook-square"></i></a></li>
+        <li class="list-inline-item"><a href=""><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+      <p class="text-center text-muted">
+        &copy;Copyright 2018 conpany name
+      </p>
+    </div>
+   <!-- /.footer -->
+  </div>
+  <!-- /.container -->
+  <div class="modal fade" id="modal-contact-form" role="dialog">
+    <div class="modal-dialog"  role="document">
+      <div class="modal-content">
+        <div class="modal-header"><h5 class="modal-title">contact us</h5>
+        <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+        </button>
+      </div><!-- /.header -->
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="contac-email" class="col-form-label">
+              Email:
+            </label>
+            <input type="email" class="form-control" id="contact-email">
+          </div>
+          <div class="form-group">
+            <label for="contact-name" class="col-form-label">
+              Name:
+            </label>
+            <input type="text" class="form-control" id="contact-email">
+          </div>
+          <div class="form-group">
+            <label for="contact-message" class="col-form-label">
+              Message:
+            </label>
+            <textarea  id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+            <input type="text" class="form-control" id="contact-email">
+          </div>
+        </form>
+      </div><!--end body-->
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button class="btn btn-primary">
+          Send
+        </button>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
+    <script src="bower_components/hammerjs/hammer.js" > </script>
+   <script>
+   var $body = document.body;
+   var hammertime = new Hammer($body);
+   hammertime.on('swiperight', function(ev) {
+	 console.log(ev);
+   });
+   hammertime.on('swipeleft', function(ev) {
+	 console.log(ev);
+   });
+   </script>
+
+ </body>
+
+ </html>
